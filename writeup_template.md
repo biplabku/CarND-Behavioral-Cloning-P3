@@ -1,5 +1,12 @@
 # **Behavioral Cloning** 
 
+
+|Lake Track|Jungle Track|
+|:--------:|:------------:|
+|[![Lake Track](images/lake_track.png)](https://youtu.be/w7TNgkhbVkc)|[![Jungle Track](images/jungle_track.png)](https://youtu.be/edgg_1GWkC4)|
+|[YouTube Link](https://youtu.be/edgg_1GWkC4)|[YouTube Link](https://youtu.be/w7TNgkhbVkc)|
+
+
 ## Writeup Template
 Behavioral Cloning for Self-Driving Cars
 
@@ -7,9 +14,6 @@ The goal of this project is to train a deep neural network to clone driving beha
 
 ![Alt text](/examples/nVidia_model.png?raw=true "Graphic model")
 
-Track1 | Track2
-------------|---------------
-![training_img](./run1.mp4) | ![validation_img](./run2.mp4)
 
 
 **Behavioral Cloning Project**
