@@ -101,8 +101,12 @@ The final step was to run the simulator to see how well the car was driving arou
 #### 2. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
+![Center image](/examples/center.jpg?raw=true)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to recover from the left turn and right side repsectively.
+![Center image](/examples/left.jpg?raw=true)
+
+![Center image](/examples/right.jpg?raw=true)
 
 Then I repeated this process on track two in order to get more data points.
 
