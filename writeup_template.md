@@ -18,12 +18,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
+[image1]: ./examples/nVidia_model.png "Model Visualization"
 [image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
+[image3]: ./examples/left.jpg.png "Recovery Image"
+[image4]: ./examples/right.jpg "Recovery Image"
 [image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
+[image6]: ./examples/center.jpg "Normal Image"
 [image7]: ./examples/placeholder_small.png "Flipped Image"
 
 ## Rubric Points
@@ -116,7 +116,7 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![Nvidia architecture][nVidia_model]
+![Nvidia architecture][image1]
 
 #### 3. Creation of the Training Set & Training Process
 
