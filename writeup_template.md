@@ -54,13 +54,26 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network with 3x3 filter sizes and depths between 32 and 128 (model.py lines 18-24) 
+I tried initially with a simple LeNet Architecture. It involves the following layers.
+1. Convolutional layer.
+2. 6 filter of size 5 x 5 size 
+3. Relu Activation function
+4. Maxpooling layers - 2
+5. Fully connected layers - 2
 
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+Another architecture
+1. Convolutional layers - 5
+2. Filters - 24, 36,48, 64, 64.  size - 5 x 5
+3. Activation function - relu
+4. Dropout layers - 3
+5. fully connected layers - 4
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains dropout layers in order to reduce overfitting (model.py lines 21). 
+The model contains dropout layers in order to reduce overfitting. Other ways used during training are as follows - 
+1. Experimented with different Epochs.
+2. Trained the model by driving the car near the edges and driving a reverse lap
+3. Using fewer convulational layers
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
@@ -73,6 +86,11 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road ... 
 
 For details about how I created the training data, see the next section. 
+1. Driving the vehicle in the center of the road 
+2. Driving the vehicle near the edges
+3. Travelling in counter clockwise direction
+4. Collecting the data from the second track
+5. Taking couple of laps
 
 ### Model Architecture and Training Strategy
 
