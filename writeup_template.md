@@ -7,10 +7,9 @@ The goal of this project is to train a deep neural network to clone driving beha
 
 ![Alt text](/examples/nVidia_model.png?raw=true "Graphic model")
 
-
-Challenge video - Track1
-
-[![Watch the video](https://github.com/biplabku/CarND-Behavioral-Cloning-P3/run1.png)](run1.mp4)
+Track1 | Track2
+------------|---------------
+![training_img](./run1.mp4) | ![validation_img](./run2.mp4)
 
 
 **Behavioral Cloning Project**
