@@ -16,16 +16,6 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/nVidia_model.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/left.jpg.png "Recovery Image"
-[image4]: ./examples/right.jpg "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/center.jpg "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
-
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
@@ -67,6 +57,9 @@ Another architecture
 3. Activation function - relu
 4. Dropout layers - 3
 5. fully connected layers - 4
+
+<img src="./examples/nVidia_model.png?raw=true">
+
 
 #### 2. Attempts to reduce overfitting in the model
 
@@ -145,3 +138,16 @@ After the collection process, I had X number of data points. I then preprocessed
 I finally randomly shuffled the data set and put Y% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+
+## Results 
+
+The above strategies resulted in a model that performed well on both test and challenge tracks. The training and validation sets are extracted in the ratio of 80% to 20%. The validation data for the model is pulled from the training set.
+
+## Conclusion and Discussion
+
+This project along with all the other assignments provided me with an opportunity to play with the data's and looking at how the training improved the model.
+
+The constant imoprovement with the different layers and experimenting with various parameters not only improved my understanding regarding the functionalities but provided me an improved insight into the self driving world.
+
+Training the car to drive itself, with relatively little or no effort was extremely rewarding.
