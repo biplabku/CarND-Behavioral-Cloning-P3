@@ -3,7 +3,7 @@
 
 |Lake Track|Jungle Track|
 |:--------:|:------------:|
-|[![Lake Track](examples/jungle_track.png)](https://youtu.be/w7TNgkhbVkc)|[![Jungle Track](examples/jungle_track.png)](https://youtu.be/edgg_1GWkC4)|
+|[![Lake Track](examples/lake_track.png)](https://youtu.be/w7TNgkhbVkc)|[![Jungle Track](examples/jungle_track.png)](https://youtu.be/edgg_1GWkC4)|
 |[YouTube Link](https://youtu.be/edgg_1GWkC4)|[YouTube Link](https://youtu.be/w7TNgkhbVkc)|
 
 
